@@ -15,7 +15,12 @@ import opennlp.tools.tokenize.Tokenizer;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 
-
+/**
+* Main class of the application
+* 
+* @author Alex Jimmy Montaño
+* 
+*/
 public class TokenizerMain
 {
 	static String dataPath = "eval_data";
