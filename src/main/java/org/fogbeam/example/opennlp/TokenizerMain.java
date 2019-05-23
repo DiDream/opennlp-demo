@@ -16,22 +16,24 @@ import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 
 /**
-* Main class of the application
-* 
-* @author Alex Jimmy Montaño
-* 
-*/
+ * Main class of the application
+ */
 public class TokenizerMain
 {
+	/**
+	 * The relative route to the project of the data files
+	 * 
+	 * @author Alex Jimmy Montaño Fuentes
+	 */
 	static String dataPath = "eval_data";
 	
+	/**
+	 * Main method of the application
+	 * @param args Invocation arguments
+	 * @throws Exception
+	 */
 	public static void main( String[] args ) throws Exception
 	{
-		
-		// the provided model
-		// InputStream modelIn = new FileInputStream( "models/en-token.bin" );
-
-		
 		// the model we trained
 		InputStream modelIn = new FileInputStream( "models/en-token.model" );
 		
